@@ -1,0 +1,2 @@
+on post-fs
+    # C8Pro uses the built-in GT738x driver.

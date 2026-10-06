@@ -1,0 +1,7 @@
+on post-fs
+    # This C8Pro has no Microarray fingerprint device.
+
+on post-fs-data
+#add for microarray fingerprint
+    chmod 660 /dev/madev0
+    chown system system /dev/madev0
