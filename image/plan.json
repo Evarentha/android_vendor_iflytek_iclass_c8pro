@@ -315,7 +315,7 @@
   },
   {
     "target": "etc/init/hw/init.ud710_21c10.usb.rc",
-    "reference_sha256": "c5574294c8dff347bdb2d3275fcd677da4b3de357add6c96c4ee22970f9d0201",
+    "reference_sha256": "d883009e7af5e30bc36379e627f4cf6fa18359bf9ac6ca0743a319385e4bf970",
     "kind": "overlay",
     "source": "overlay/etc/init/hw/init.ud710_21c10.usb.rc"
   },
@@ -326,10 +326,10 @@
     "source": "overlay/ueventd.rc"
   },
   {
-    "target": "etc/init/c8pro-storage.rc",
-    "reference_sha256": "49bf6b365871d11923907b5f2b1967186d9063bfaa3248d1f07cdab2dbbfd2f6",
+    "target": "etc/init/mitochodria-storage.rc",
+    "reference_sha256": "8273b7494aed35464993de003fec748553bce2c5dcf58ff968d87c16d8f9ec72",
     "kind": "overlay",
-    "source": "overlay/etc/init/c8pro-storage.rc"
+    "source": "overlay/etc/init/mitochodria-storage.rc"
   },
   {
     "target": "lib/hw/camera.ud710.so",
@@ -357,37 +357,37 @@
   },
   {
     "target": "etc/init/hw/init.common.rc",
-    "reference_sha256": "9dba262090e9d256d4a55e803756a8033fa5d3181e067dc79fedbd82089e3966",
+    "reference_sha256": "058662a4a350af258329ce5331e065aa4eff23e0f4176a411fc859843b5fbf63",
     "kind": "overlay",
     "source": "overlay/etc/init/hw/init.common.rc"
   },
   {
     "target": "etc/init/hw/init.ud710_21c10.rc",
-    "reference_sha256": "9480035769d38de5e6e82bf2ff8d103611485938fd56bda4844a8712c2f2ed54",
+    "reference_sha256": "7da46d62f0ab55fafab716cc92286b05dbafaedf7d304bdbf09b9101974d9016",
     "kind": "overlay",
     "source": "overlay/etc/init/hw/init.ud710_21c10.rc"
   },
   {
     "target": "etc/init/init.microarray.rc",
-    "reference_sha256": "284a5d472250ee0ffc42fd6458192d7a44f65cfa1fc9bf2745af2ae448256510",
+    "reference_sha256": "ca9727f0eb0755543d5e4a2983a40116d145145227089c85a6a60daae4fde5e6",
     "kind": "overlay",
     "source": "overlay/etc/init/init.microarray.rc"
   },
   {
     "target": "etc/init/init.synaptics_dsx_i2c.rc",
-    "reference_sha256": "ce4e15c773b64f69b5ae7e3ea7f6dd40ef198cc63d48136f7eb5606e76081b7e",
+    "reference_sha256": "13fe9c4fe56c44cf5c06e868393d6814d06019bc589a5067cd014712880ee229",
     "kind": "overlay",
     "source": "overlay/etc/init/init.synaptics_dsx_i2c.rc"
   },
   {
     "target": "etc/init/init.sprd_flash.rc",
-    "reference_sha256": "6fc9fcbfd4c4fce0ec9c77aa5cbf78ac4e56d6a667e09cefa757178bcbdd4f3e",
+    "reference_sha256": "59fd90043d5274cfa4df66e20dc07aab30d7fb2501b9a61abee106be6152af5a",
     "kind": "overlay",
     "source": "overlay/etc/init/init.sprd_flash.rc"
   },
   {
     "target": "etc/init/factorytest.rc",
-    "reference_sha256": "94809aabfd4fb9d584fde5382214bd4f4f15b0c78b797165c685a7a13b70560e",
+    "reference_sha256": "0aacc4c9ce55e87bdae909c754962436d94a2e8846210d042363a2f7cc21ca7e",
     "kind": "overlay",
     "source": "overlay/etc/init/factorytest.rc"
   },
@@ -396,6 +396,11 @@
     "reference_sha256": "cb43f5b4dcb42323b5b83235f60694ec54872309f7ac327ae8abb49021784801",
     "kind": "overlay",
     "source": "overlay/etc/init/android.hardware.sensors@1.0-service.rc"
+  },
+  {
+    "target": "etc/init/c8pro-storage.rc",
+    "kind": "remove",
+    "reference_sha256": null
   },
   {
     "target": "bin/c8pro-early-log.sh",

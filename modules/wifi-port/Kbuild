@@ -144,7 +144,7 @@ DHDCFLAGS += -DCHAN_STATS_SUPPORT
 DHDCFLAGS += -DDHD_SBN
 
 # Enable inband device wake feature
-# C8Pro uses the board OOB host-wake GPIO, not Pixel in-band wake.
+# Use the board OOB host-wake GPIO, not Pixel in-band wake.
 
 # Debug check for PCIe read latency
 #DHDCFLAGS += -DDBG_DW_CHK_PCIE_READ_LATENCY
@@ -776,7 +776,7 @@ endif
 
 #EXTRA_LDFLAGS += --strip-debug
 
-# C8Pro RC defers enumeration until WL_REG_ON is high. Bring up the board
+# The ROC1 RC defers enumeration until WL_REG_ON is high. Bring up the board
 # before registering the PCI driver; otherwise no endpoint can be probed.
 
 ifeq ($(DRIVER_TYPE),y)

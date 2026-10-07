@@ -731,7 +731,7 @@ typedef struct phySensorInfo {
     int face_type;
     int angle;
     int resource_cost;
-    /* C8Pro Android 9 libcamsensor ABI (four conflicting-device pointers).
+    /* Legacy Android 9 libcamsensor ABI (four conflicting-device pointers).
      * Keep pointer-width alignment: focus_eb is 0x38/0x4c on ARM32/64.
      */
     const char *conflicting_devices[4];

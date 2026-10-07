@@ -1888,7 +1888,7 @@ struct camera_jpeg_param {
     cmr_u32 need_free;
     cmr_u32 index;
     cmr_u32 reserved;
-    /* C8Pro factory OEM ABI has no JingPad SUPER_MACRO payload here.
+    /* The legacy factory OEM ABI has no JingPad SUPER_MACRO payload here.
      * Adding it shifts sensor_info and monoboottime in camera_frame_type.
      */
 };

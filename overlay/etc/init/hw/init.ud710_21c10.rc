@@ -15,7 +15,7 @@ on post-fs-data
     mkdir /data/vendor/wifi/wpa/sockets 0770 wifi wifi
 
 on post-fs
-    # C8Pro uses the built-in GT738x driver.
+    # Use the built-in GT738x driver.
 
 #modify permission for voicetrigger dev
     chown system  audio /dev/rt5512

@@ -1429,7 +1429,7 @@
 
 /vendor/lib/modules/npu_img_vha\.ko u:object_r:vendor_file:s0
 
-/vendor/etc/init/c8pro\-storage\.rc u:object_r:vendor_configs_file:s0
+/vendor/etc/init/mitochodria\-storage\.rc u:object_r:vendor_configs_file:s0
 
 /vendor/lib/modules/mitochodria_cam_power\.ko u:object_r:vendor_file:s0
 
@@ -1437,7 +1437,7 @@
 
 /vendor/lib/modules/npu_img_vha\.ko u:object_r:vendor_file:s0
 
-/vendor/etc/init/c8pro\-storage\.rc u:object_r:vendor_configs_file:s0
+/vendor/etc/init/mitochodria\-storage\.rc u:object_r:vendor_configs_file:s0
 
 /vendor/lib/modules/mitochodria_cam_power\.ko u:object_r:vendor_file:s0
 
@@ -1445,7 +1445,7 @@
 
 /vendor/lib/modules/npu_img_vha\.ko u:object_r:vendor_file:s0
 
-/vendor/etc/init/c8pro\-storage\.rc u:object_r:vendor_configs_file:s0
+/vendor/etc/init/mitochodria\-storage\.rc u:object_r:vendor_configs_file:s0
 
 /vendor/lib/modules/mitochodria_cam_power\.ko u:object_r:vendor_file:s0
 
@@ -1453,7 +1453,7 @@
 
 /vendor/lib/modules/npu_img_vha\.ko u:object_r:vendor_file:s0
 
-/vendor/etc/init/c8pro\-storage\.rc u:object_r:vendor_configs_file:s0
+/vendor/etc/init/mitochodria\-storage\.rc u:object_r:vendor_configs_file:s0
 
 /vendor/lib/modules/mitochodria_cam_power\.ko u:object_r:vendor_file:s0
 
@@ -1461,7 +1461,7 @@
 
 /vendor/lib/modules/npu_img_vha\.ko u:object_r:vendor_file:s0
 
-/vendor/etc/init/c8pro\-storage\.rc u:object_r:vendor_configs_file:s0
+/vendor/etc/init/mitochodria\-storage\.rc u:object_r:vendor_configs_file:s0
 
 /vendor/lib/modules/mitochodria_cam_power\.ko u:object_r:vendor_file:s0
 
@@ -1469,7 +1469,7 @@
 
 /vendor/lib/modules/npu_img_vha\.ko u:object_r:vendor_file:s0
 
-/vendor/etc/init/c8pro\-storage\.rc u:object_r:vendor_configs_file:s0
+/vendor/etc/init/mitochodria\-storage\.rc u:object_r:vendor_configs_file:s0
 
 /vendor/lib/modules/mitochodria_cam_power\.ko u:object_r:vendor_file:s0
 
@@ -1477,7 +1477,7 @@
 
 /vendor/lib/modules/npu_img_vha\.ko u:object_r:vendor_file:s0
 
-/vendor/etc/init/c8pro\-storage\.rc u:object_r:vendor_configs_file:s0
+/vendor/etc/init/mitochodria\-storage\.rc u:object_r:vendor_configs_file:s0
 
 /vendor/lib/modules/mitochodria_cam_power\.ko u:object_r:vendor_file:s0
 
@@ -1485,7 +1485,7 @@
 
 /vendor/lib/modules/npu_img_vha\.ko u:object_r:vendor_file:s0
 
-/vendor/etc/init/c8pro\-storage\.rc u:object_r:vendor_configs_file:s0
+/vendor/etc/init/mitochodria\-storage\.rc u:object_r:vendor_configs_file:s0
 
 /vendor/lib/modules/mitochodria_cam_power\.ko u:object_r:vendor_file:s0
 
@@ -1493,7 +1493,7 @@
 
 /vendor/lib/modules/npu_img_vha\.ko u:object_r:vendor_file:s0
 
-/vendor/etc/init/c8pro\-storage\.rc u:object_r:vendor_configs_file:s0
+/vendor/etc/init/mitochodria\-storage\.rc u:object_r:vendor_configs_file:s0
 
 /vendor/lib/modules/mitochodria_cam_power\.ko u:object_r:vendor_file:s0
 
@@ -1501,7 +1501,7 @@
 
 /vendor/lib/modules/npu_img_vha\.ko u:object_r:vendor_file:s0
 
-/vendor/etc/init/c8pro\-storage\.rc u:object_r:vendor_configs_file:s0
+/vendor/etc/init/mitochodria\-storage\.rc u:object_r:vendor_configs_file:s0
 
 /vendor/bin/mitochodria-sensorhub-boot u:object_r:modem_control_exec:s0
 

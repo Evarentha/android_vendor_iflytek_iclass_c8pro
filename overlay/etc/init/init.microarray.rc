@@ -1,5 +1,5 @@
 on post-fs
-    # This C8Pro has no Microarray fingerprint device.
+    # This vendor configuration does not load a Microarray fingerprint module.
 
 on post-fs-data
 #add for microarray fingerprint

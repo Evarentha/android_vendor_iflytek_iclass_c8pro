@@ -1,4 +1,4 @@
-# C8Pro 5.15: a single owner for configfs composition. Value 2 isolates these
+# Mitochodria 5.15: a single owner for configfs composition. Value 2 isolates these
 # actions from the Android 9 root init.usb.configfs.rc (which requires value 1).
 on init
     mkdir /config/usb_gadget/g1 0770 shell shell

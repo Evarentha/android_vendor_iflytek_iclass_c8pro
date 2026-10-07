@@ -61,7 +61,7 @@ on factorytest
 #insmod for ethnet
 	insmod /vendor/lib/modules/lan78xx.ko
 	insmod /vendor/lib/modules/microchip.ko
-	# C8Pro uses the built-in GT738x driver.
+	# Use the built-in GT738x driver.
 	insmod /vendor/lib/modules/nt36xxx_ts.ko
 #insmod for ethnet end
     stop vendor.hwcomposer-2-1

@@ -1417,6 +1417,6 @@ vendor/usr/idc/synaptics_dsx_i2c.idc 0 0 0644
 vendor/lib/modules/mitochodria_cam_power.ko 0 0 0644
 vendor/lib/modules/npu_img_mem.ko 0 0 0644
 vendor/lib/modules/npu_img_vha.ko 0 0 0644
-vendor/etc/init/c8pro-storage.rc 0 0 0644
+vendor/etc/init/mitochodria-storage.rc 0 0 0644
 vendor/bin/mitochodria-sensorhub-boot 0 0 0755
 vendor/etc/init/mitochodria-sensorhub.rc 0 0 0644

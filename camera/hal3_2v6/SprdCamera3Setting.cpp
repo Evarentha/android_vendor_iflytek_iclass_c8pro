@@ -557,7 +557,7 @@ const cam_stream_info_t stream_info[] = {
     {{352, 288}, 33331760L, 33331760L},
     {{320, 240}, 33331760L, 33331760L},
     {{176, 144}, 33331760L, 33331760L},
-    /* Factory C8Pro retains portrait VGA metadata if identification fails.
+    /* The legacy factory HAL retains portrait VGA metadata if identification fails.
      * The selection loop explicitly permits this entry for a zero-size
      * sensor; keeping it prevents one missing sensor from killing provider.
      */
@@ -1243,7 +1243,7 @@ void SprdCamera3Setting::autotrackingCoordinateConvert(int32_t *area) {
 
 void *SprdCamera3Setting::getCameraIdentifyState() {
     void *devPtr = NULL;
-    /* Android 9 C8Pro's sensor library predates the optional hotplug query. */
+    /* The legacy Android 9 sensor library predates the optional hotplug query. */
     typedef void *(*identify_state_fn)();
     identify_state_fn query = reinterpret_cast<identify_state_fn>(
         dlsym(RTLD_DEFAULT, "sensorGetIdentifyState"));

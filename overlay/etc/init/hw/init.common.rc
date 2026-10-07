@@ -85,7 +85,7 @@ on fs
     chmod 666 /dev/adf-overlay-engine0.0
 
 on post-fs
-    # C8Pro 5.15: Rogue is built into the kernel.
+    # Mitochodria 5.15: Rogue is built into the kernel.
     #bypass the gpu during the prior_bringu
     #setprop ro.kernel.qemu 1
     #setprop ro.kernel.qemu.gles 0

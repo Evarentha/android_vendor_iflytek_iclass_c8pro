@@ -10,7 +10,7 @@
 # Copyright (C) 2026 Evarentha
 # SPDX-License-Identifier: MIT
 
-"""Build C8Pro vendor components from the maintained source tree.
+"""Build Mitochodria vendor components from the maintained source tree.
 
 Targets include the CM4 loader, ARM32/ARM64 camera and graphics HALs,
 external kernel modules, factory-tree staging, and raw ext4 image packaging.
